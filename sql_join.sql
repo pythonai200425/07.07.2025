@@ -24,3 +24,7 @@ INSERT INTO lecturers (lecturer_id, name, car_id) VALUES
 DELETE FROM cars
 where car_id = 4;
 
+select lecturers.*, cars.model from lecturers
+join cars on lecturers.car_id=cars.car_id;
+
+
