@@ -18,4 +18,7 @@ INSERT INTO sales (product, category, quantity, price) VALUES
 -- find:
 -- Query 1: Total quantity sold per category
 -- Query 2: Categories with total quantity > 38
--- Query 3: Products with total revenue (=price * quantity)> 10
+
+-- Query 3:
+-- categories number of products where
+-- Products with total revenue (=price * quantity) > 10
